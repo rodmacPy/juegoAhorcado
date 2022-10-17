@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: rgb(192, 205, 207);    
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    
+    
+}
+main{
+    display: flex;
+    width: 50%;
+    
+    background-size: cover;
+    margin: auto;
+    background: rgba(255,255,255,.7);
+    justify-content: center;
+    /* display: flex; */
+    padding: 10px;
+    border-style: groove;
+    
+}
+#imagen{
+    width: 300px;
+
+}
+.letras{
+    font-size: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 30px;
+    text-align: center;
+}
+#mostrarLetras{ /* div letras */
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    height: 70px;
+    vertical-align: bottom;
+
+}
+#mostrarMensaje{ /* div perdiste */
+
+    height: 30%;
+    
+}
+#botones{ /* div botones */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+}
+.botones{
+    height: 40px;
+    width: 40px; 
+}
+section{
+    width: 100%;
+}
+#inicio{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 10%;
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+#pMensaje{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(222, 62, 62);
+}
+h1{
+
+    display: flex;
+    justify-content: center;
+}
