@@ -8,8 +8,8 @@ body{
 }
 main{
     display: flex;
-    width: 50%;
-    
+    width: 930px;
+    height: 366px;
     background-size: cover;
     margin: auto;
     background: rgba(255,255,255,.7);
@@ -61,9 +61,9 @@ section{
 #inicio{
     display: flex;
     margin: auto;
-    margin-top: 10px;
-    width: 10%;
-    height: 10%;
+    margin-top: 15px;
+    width: 60px;
+    height: 35px;
     font-size: 20px;
     text-align: center;
 }
